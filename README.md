@@ -2,7 +2,7 @@
 
 Certainly! Here's a list of functions commonly used in Tableau along with examples of their usage:
 
-### Aggregate Functions:
+## Aggregate Functions:
 1. **SUM()**: Calculates the sum of a numerical field.
    Example: `SUM([Sales])`
 
@@ -20,7 +20,7 @@ Certainly! Here's a list of functions commonly used in Tableau along with exampl
 
 Certainly! Here are some date functions in Tableau along with examples of their usage:
 
-### Date Functions:
+## Date Functions:
 1. **DATEADD()**: Adds a specified interval to a date.
    Example: `DATEADD('year', 1, [Order Date])` adds one year to the Order Date.
 
@@ -45,7 +45,7 @@ Certainly! Here are some date functions in Tableau along with examples of their 
 8. **DATEPARSE()**: Parses a string into a date using a specified format.
    Example: `DATEPARSE('yyyy-MM-dd', '2022-10-15')` parses the string '2022-10-15' into a date.
 
-### String Functions:
+## String Functions:
 1. **LEFT()**: Returns the leftmost characters of a string.
    Example: `LEFT([Product Name], 5)` returns the first 5 characters of the Product Name.
 
@@ -84,7 +84,7 @@ Certainly! Here are some date functions in Tableau along with examples of their 
 
 Certainly! Here are some logical functions in Tableau along with examples of their usage:
 
-### Logical Functions:
+## Logical Functions:
 1. **IF-THEN-ELSE**: Conditional statement that returns different results based on a condition.
    Example: `IF [Sales] > 1000 THEN 'High' ELSE 'Low' END` categorizes sales as 'High' if greater than 1000, otherwise 'Low'.
 
@@ -101,42 +101,49 @@ Certainly! Here are some logical functions in Tableau along with examples of the
 3. **AND**: Logical AND operation.
     example:
     ```
-    `IF [Sales] > 1000 AND [Profit] > 500 THEN 'High Profit' ELSE 'Low Profit' END` checks if both sales and profit are above certain thresholds.
+    IF [Sales] > 1000 AND [Profit] > 500
+    THEN 'High Profit' ELSE 'Low Profit'
+    END` checks if both sales and profit are above certain thresholds.
     ```
 5. **OR**: Logical OR operation.
    Example:
    ```
-   `IF [Region] = 'North' OR [Region] = 'South' THEN 'Northern or Southern Region' ELSE 'Other Regions' END` checks if the region is either 'North' or 'South'.
+   IF [Region] = 'North' OR [Region] = 'South'
+   THEN 'Northern or Southern Region' ELSE 'Other Regions'
+   END` checks if the region is either 'North' or 'South'.
    ```
 7. **NOT**: Logical NOT operation.
    Example:
    ```
-   `IF NOT ISNULL([Discount]) THEN 'Discount Applied' ELSE 'No Discount Applied' END` checks if the discount field is not null.
+   IF NOT ISNULL([Discount])
+   THEN 'Discount Applied'
+   ELSE 'No Discount Applied'
+   END` checks if the discount field is not null.
    ```
 These logical functions in Tableau are essential for implementing conditional logic in your data analysis. They allow you to control how your data is categorized, filtered, or displayed based on specific conditions.
 
-### Number Functions:
+## Number Functions:
 1. **ABS()**: Returns the absolute value of a number.
    Example: `ABS([Profit])`
 
 2. **ROUND()**: Rounds a number to a specified number of decimal places.
    Example: `ROUND([Discount], 2)`
 
-### Table Calculation Functions:
+## Table Calculation Functions:
 1. **WINDOW_SUM()**: Calculates a running sum of a field within a specified window.
    Example: `WINDOW_SUM(SUM([Sales]))`
 
 2. **RUNNING_SUM()**: Calculates a running sum of a field.
    Example: `RUNNING_SUM([Profit])`
 
-### Type Conversion Functions:
+## Type Conversion Functions:
 1. **INT()**: Converts a value to an integer.
    Example: `INT([Quantity])`
 
 2. **STR()**: Converts a value to a string.
    Example: `STR([Sales])`
 
-### Statistical Functions:
+## Statistical Functions:
 1. **ZN()**: Replaces null values with zero.
    Example: `ZN([Sales])`
 
@@ -145,7 +152,7 @@ These logical functions in Tableau are essential for implementing conditional lo
 
 Certainly! Here are some geographic functions in Tableau along with examples of their usage:
 
-### Geographic Functions:
+## Geographic Functions:
 1. **MAKEPOINT()**: Creates a point geometry from latitude and longitude values.
    Example: `MAKEPOINT([Latitude], [Longitude])`
 
