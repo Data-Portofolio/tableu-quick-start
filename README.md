@@ -1,6 +1,8 @@
-# tableu-quick-start
+ <h1 align="center">
+     <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="200" height="auto"/>
+    <br>
+    tableu</h1>
 
-Certainly! Here's a list of functions commonly used in Tableau along with examples of their usage:
 
 ## Aggregate Functions:
 1. **SUM()**: Calculates the sum of a numerical field.
