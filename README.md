@@ -2,9 +2,10 @@
      <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="200" height="auto"/>
     <br>
     tableu</h1>
+    
+## Function in Tableu
 
-
-## Aggregate Functions:
+### Aggregate Functions:
 1. **SUM()**: Calculates the sum of a numerical field.
    Example: `SUM([Sales])`
 
@@ -20,9 +21,10 @@
 5. **COUNT()**: Counts the number of rows with non-null values in a field.
    Example: `COUNT([Customer ID])`
 
-Certainly! Here are some date functions in Tableau along with examples of their usage:
-
-## Date Functions:
+<details><summary>
+🎯More explanation below</summary>
+ 
+### Date Functions:
 1. **DATEADD()**: Adds a specified interval to a date.
    Example: `DATEADD('year', 1, [Order Date])` adds one year to the Order Date.
 
@@ -46,8 +48,8 @@ Certainly! Here are some date functions in Tableau along with examples of their 
 
 8. **DATEPARSE()**: Parses a string into a date using a specified format.
    Example: `DATEPARSE('yyyy-MM-dd', '2022-10-15')` parses the string '2022-10-15' into a date.
-
-## String Functions:
+    
+### String Functions:
 1. **LEFT()**: Returns the leftmost characters of a string.
    Example: `LEFT([Product Name], 5)` returns the first 5 characters of the Product Name.
 
@@ -86,7 +88,7 @@ Certainly! Here are some date functions in Tableau along with examples of their 
 
 Certainly! Here are some logical functions in Tableau along with examples of their usage:
 
-## Logical Functions:
+### Logical Functions:
 1. **IF-THEN-ELSE**: Conditional statement that returns different results based on a condition.
    Example: `IF [Sales] > 1000 THEN 'High' ELSE 'Low' END` categorizes sales as 'High' if greater than 1000, otherwise 'Low'.
 
@@ -124,28 +126,28 @@ Certainly! Here are some logical functions in Tableau along with examples of the
    ```
 These logical functions in Tableau are essential for implementing conditional logic in your data analysis. They allow you to control how your data is categorized, filtered, or displayed based on specific conditions.
 
-## Number Functions:
+### Number Functions:
 1. **ABS()**: Returns the absolute value of a number.
    Example: `ABS([Profit])`
 
 2. **ROUND()**: Rounds a number to a specified number of decimal places.
    Example: `ROUND([Discount], 2)`
 
-## Table Calculation Functions:
+### Table Calculation Functions:
 1. **WINDOW_SUM()**: Calculates a running sum of a field within a specified window.
    Example: `WINDOW_SUM(SUM([Sales]))`
 
 2. **RUNNING_SUM()**: Calculates a running sum of a field.
    Example: `RUNNING_SUM([Profit])`
 
-## Type Conversion Functions:
+### Type Conversion Functions:
 1. **INT()**: Converts a value to an integer.
    Example: `INT([Quantity])`
 
 2. **STR()**: Converts a value to a string.
    Example: `STR([Sales])`
 
-## Statistical Functions:
+### Statistical Functions:
 1. **ZN()**: Replaces null values with zero.
    Example: `ZN([Sales])`
 
@@ -154,7 +156,7 @@ These logical functions in Tableau are essential for implementing conditional lo
 
 Certainly! Here are some geographic functions in Tableau along with examples of their usage:
 
-## Geographic Functions:
+### Geographic Functions:
 1. **MAKEPOINT()**: Creates a point geometry from latitude and longitude values.
    Example: `MAKEPOINT([Latitude], [Longitude])`
 
@@ -177,3 +179,20 @@ Certainly! Here are some geographic functions in Tableau along with examples of 
    Example: `WITHIN([Point], [Polygon])`
 
 These geographic functions are useful for spatial analysis and creating geospatial visualizations in Tableau. They allow you to perform operations such as calculating distances between locations, determining containment relationships, and creating buffer zones around points of interest.
+</details>
+
+## 5 Steps to Analysis 
+
+In Tableau, conducting an analysis typically involves several key steps:
+
+1. **Data Check**: Before diving into analysis, ensure that your data is clean, accurate, and properly structured. This may involve checking for missing values, outliers, and inconsistencies. Tableau provides tools for data preparation and cleansing to streamline this process.
+
+2. **Explore Data**: Once your data is in good shape, start exploring it in Tableau. This involves visually examining the data to identify patterns, trends, and relationships. Tableau's drag-and-drop interface allows for intuitive exploration of data by creating various visualizations like scatter plots, bar charts, and histograms.
+
+3. **Analyze & Visualize Data**: After gaining insights from data exploration, move on to more in-depth analysis and visualization. Use Tableau's powerful features like calculated fields, filters, and parameters to perform complex analyses and create informative visualizations. This step often involves creating multiple charts, graphs, or maps to answer specific questions or test hypotheses.
+
+4. **Dashboarding**: Once individual visualizations are created, assemble them into interactive dashboards in Tableau. Dashboards allow you to combine multiple views into a single interface, enabling users to interactively explore different aspects of the data. Customize the layout, add interactivity, and design visually appealing dashboards to effectively communicate insights.
+
+5. **Communicate the Insights**: Finally, share your findings and insights with stakeholders or decision-makers. Use Tableau's storytelling capabilities to create compelling narratives around your data. Incorporate annotations, captions, and explanations to guide viewers through the analysis process and highlight key takeaways. Tableau also allows you to publish your dashboards to Tableau Server or Tableau Public for easy sharing and collaboration.
+
+By following these steps, you can effectively analyze data using Tableau and communicate meaningful insights to drive informed decision-making.
