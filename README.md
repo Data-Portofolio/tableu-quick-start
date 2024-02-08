@@ -47,7 +47,7 @@ END
 
 ### Season
 
-```
+```sql
 IF  datepart('month', [Start Time])<3 THEN 'Winter'
 ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
 ELSE 'Summer'
@@ -56,7 +56,7 @@ END
 
 ### Trip Duration (hour)
 
-```
+```sql
 DATEDIFF('hour', [Start Time], [End Time])
 ```
 
