@@ -45,8 +45,20 @@ ELSE 'Weekday'
 END
 ```
 
+### Season
 
+```
+IF  datepart('month', [Start Time])<3 THEN 'Winter'
+ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
+ELSE 'Summer'
+END
+```
 
+### Trip Duration (hour)
+
+```
+DATEDIFF('hour', [Start Time], [End Time])
+```
 
 
 ## Function in Tableu
