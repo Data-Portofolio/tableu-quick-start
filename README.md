@@ -19,7 +19,36 @@ In Tableau, conducting an analysis typically involves several key steps:
 
 By following these steps, you can effectively analyze data using Tableau and communicate meaningful insights to drive informed decision-making.
 
-    
+## Parameter
+
+### Time Block
+
+```sql
+IF DATEPART('hour', [Start Time]) >= 0 AND DATEPART('hour', [Start Time]) < 6 
+    THEN 'Night'
+ELSEIF DATEPART('hour', [Start Time]) >= 6 AND DATEPART('hour', [Start Time]) < 12
+    THEN 'Morning'
+ELSEIF DATEPART('hour', [Start Time]) >= 12 AND DATEPART('hour', [Start Time]) < 18
+    THEN 'Afternoon'
+ELSE 
+    'Evening'
+END
+```
+
+###  weekend or weekdays
+
+```sql
+IF DATEPART('day', [Start Time])=1 
+    or DATEPART('day', [Start Time])= 7
+THEN 'Weekend'
+ELSE 'Weekday'
+END
+```
+
+
+
+
+
 ## Function in Tableu
 
 ### Aggregate Functions:
