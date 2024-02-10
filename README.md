@@ -249,5 +249,5 @@ These geographic functions are useful for spatial analysis and creating geospati
   >**Contohnya**: dalam dataset negara di seluruh dunia, kita bisa mengelompokkan baris-baris ini menjadi benua berdasarkan nama negaranya.
   
 - Ada dua kasus penggunaan utama untuk `Group`:
-  1. untuk menciptakan konsistensi dalam data, seperti menggabungkan penulisan yang berbeda untuk hal yang sama.
-  2. untuk memberikan tingkat agregasi baru, seperti mengelompokkan produk-produk ke dalam kategori-kategori seperti aksesori, perabotan, pakaian, dll.
+  - untuk menciptakan konsistensi dalam data, seperti menggabungkan penulisan yang berbeda untuk hal yang sama.
+  - untuk memberikan tingkat agregasi baru, seperti mengelompokkan produk-produk ke dalam kategori-kategori seperti aksesori, perabotan, pakaian, dll.
