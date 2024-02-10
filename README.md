@@ -242,3 +242,12 @@ Certainly! Here are some geographic functions in Tableau along with examples of 
 These geographic functions are useful for spatial analysis and creating geospatial visualizations in Tableau. They allow you to perform operations such as calculating distances between locations, determining containment relationships, and creating buffer zones around points of interest.
 </details>
 
+## Group
+### Group
+- `Group` adalah penggabungan baris terkait dalam sebuah kolom.
+  
+  >**Contohnya**: dalam dataset negara di seluruh dunia, kita bisa mengelompokkan baris-baris ini menjadi benua berdasarkan nama negaranya.
+  
+- Ada dua kasus penggunaan utama untuk `Group`:
+  1. untuk menciptakan konsistensi dalam data, seperti menggabungkan penulisan yang berbeda untuk hal yang sama.
+  2. untuk memberikan tingkat agregasi baru, seperti mengelompokkan produk-produk ke dalam kategori-kategori seperti aksesori, perabotan, pakaian, dll.
