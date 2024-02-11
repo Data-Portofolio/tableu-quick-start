@@ -201,12 +201,12 @@ These geographic functions are useful for spatial analysis and creating geospati
 
 ##  <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/c5e7c50c-7eff-4ffb-bd44-129ff892dfbe" width="31" height="33"> Group, Set, & Parameter
 
-<p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/14b0320b-ea54-4b20-b449-f8c7f9445914"></p>
+<p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ad6abd68-824c-4872-88ed-a9fb765390f2"></p>
 
 ### Group
 - `Group` adalah penggabungan baris terkait dalam sebuah kolom.
   
-  >**Contohnya**: dalam dataset negara di seluruh dunia, kita bisa mengelompokkan baris-baris ini menjadi benua berdasarkan nama negaranya.
+  >**Contohnya**: dalam dataset negara di seluruh dunia, kita bisa mengelompokkan baris-baris ini menjadi benua (Asia,Amerika,Africa) berdasarkan nama negaranya.
   
 - Ada dua kasus penggunaan utama untuk `Group`:
   - untuk menciptakan konsistensi dalam data, seperti menggabungkan penulisan yang berbeda untuk hal yang sama.
