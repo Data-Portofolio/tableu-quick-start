@@ -251,3 +251,8 @@ These geographic functions are useful for spatial analysis and creating geospati
 - Ada dua kasus penggunaan utama untuk `Group`:
   - untuk menciptakan konsistensi dalam data, seperti menggabungkan penulisan yang berbeda untuk hal yang sama.
   - untuk memberikan tingkat agregasi baru, seperti mengelompokkan produk-produk ke dalam kategori-kategori seperti aksesori, perabotan, pakaian, dll.
+
+### Parameter
+- Parameters dalam Tableau adalah nilai penampung global seperti angka, tanggal, atau string yang dapat menggantikan nilai konstan dalam suatu perhitungan, filter, atau garis referensi. Ini memungkinkan Anda untuk menyampaikan nilai ke visualisasi Anda untuk secara dinamis mengubah apa yang ditampilkan.
+
+  > Misalnya, mengubah tampilan dari 15 stasiun teratas menjadi 50 stasiun teratas. Kunci dari sebuah parameter adalah kemampuannya untuk mengirimkan nilai ke lembar      kerja menggunakan Pengendali Parameter. Ini akan menjadi jelas dalam latihan berikutnya ketika kita membuat Parameter dan mengaitkannya dengan sebuah Bidang.Hitung  dan filter. Setelah dibuat, Anda akan melihat bahwa Parameters berada di bagian tersendiri dalam panel Data. Mari kita lihat beberapa contoh.
