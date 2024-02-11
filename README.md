@@ -219,53 +219,53 @@ These geographic functions are useful for spatial analysis and creating geospati
 
   > Misalnya, mengubah tampilan dari 15 stasiun teratas menjadi 50 stasiun teratas. Kunci dari sebuah parameter adalah kemampuannya untuk mengirimkan nilai ke lembar      kerja menggunakan Pengendali Parameter. Ini akan menjadi jelas dalam latihan berikutnya ketika kita membuat Parameter dan mengaitkannya dengan sebuah Bidang.Hitung  dan filter. Setelah dibuat, Anda akan melihat bahwa Parameters berada di bagian tersendiri dalam panel Data. Mari kita lihat beberapa contoh.
 
-<details><summary>View in tableu: </summary>
+  <details><summary>View in tableu: </summary>
 
- ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
-</details>
+    ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
+  </details>
 
-<details><summary>Example Code:</summary>
-<br>
+  <details><summary>Example Code:</summary>
+   <br>
  
-#### Time Block
+   #### Time Block
+   
+   ```sql
+   IF DATEPART('hour', [Start Time]) >= 0 AND DATEPART('hour', [Start Time]) < 6 
+       THEN 'Night'
+   ELSEIF DATEPART('hour', [Start Time]) >= 6 AND DATEPART('hour', [Start Time]) < 12
+       THEN 'Morning'
+   ELSEIF DATEPART('hour', [Start Time]) >= 12 AND DATEPART('hour', [Start Time]) < 18
+       THEN 'Afternoon'
+   ELSE 
+       'Evening'
+   END
+   ```
 
-```sql
-IF DATEPART('hour', [Start Time]) >= 0 AND DATEPART('hour', [Start Time]) < 6 
-    THEN 'Night'
-ELSEIF DATEPART('hour', [Start Time]) >= 6 AND DATEPART('hour', [Start Time]) < 12
-    THEN 'Morning'
-ELSEIF DATEPART('hour', [Start Time]) >= 12 AND DATEPART('hour', [Start Time]) < 18
-    THEN 'Afternoon'
-ELSE 
-    'Evening'
-END
-```
-
-####  weekend or weekdays
-
-```sql
-IF DATEPART('day', [Start Time])=1 
-    or DATEPART('day', [Start Time])= 7
-THEN 'Weekend'
-ELSE 'Weekday'
-END
-```
-
-#### Season
-
-```sql
-IF  datepart('month', [Start Time])<3 THEN 'Winter'
-ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
-ELSE 'Summer'
-END
-```
-
-#### Trip Duration (hour)
-
-```sql
-DATEDIFF('hour', [Start Time], [End Time])
-```
-</details>
+   ####  weekend or weekdays
+   
+   ```sql
+   IF DATEPART('day', [Start Time])=1 
+       or DATEPART('day', [Start Time])= 7
+   THEN 'Weekend'
+   ELSE 'Weekday'
+   END
+   ```
+   
+   #### Season
+   
+   ```sql
+   IF  datepart('month', [Start Time])<3 THEN 'Winter'
+   ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
+   ELSE 'Summer'
+   END
+   ```
+   
+   #### Trip Duration (hour)
+   
+   ```sql
+   DATEDIFF('hour', [Start Time], [End Time])
+   ```
+   </details>
 
 ### Set
 - Set dalam Tableau adalah kumpulan data yang dibuat untuk mengelompokkan nilai-nilai tertentu dalam satu kelompok. Setiap nilai dalam set bisa menjadi bagian dari set (`IN`) atau di luar set (`OUT`).
