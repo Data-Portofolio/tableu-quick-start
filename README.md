@@ -278,6 +278,11 @@ These geographic functions are useful for spatial analysis and creating geospati
 - Set bisa digunakan untuk filtering, highlighting, atau membandingkan subset data.
 
   > Contoh penggunaan set dalam Tableau termasuk pembagian data menjadi kategori-kategori tertentu untuk analisis lebih lanjut, atau membandingkan kinerja anggota set     dengan anggota di luar set. Set dapat digunakan dalam perhitungan, filter, dan visualisasi untuk membantu dalam pemodelan data dan analisis.
-   <details><summary>View in code</summary>
+   <details><summary>View in tableu 1</summary>
       <p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/9bef9779-c109-47b8-968a-85540d44b81d"></p>
    </details>
+   <details><summary>View in tableu 2</summary>
+      <p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/320a0314-3722-49ee-a043-50fcc54d0a0d"></p>
+   </details>
+  
+
