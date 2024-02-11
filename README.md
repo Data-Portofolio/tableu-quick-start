@@ -5,8 +5,7 @@
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5ff5eebb-84ad-4d17-8c01-acbca4c42a9d)
 
-  
-## 5 Steps to Analysis 
+## <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/44e0968e-345b-4008-981d-25508ef215d5" width="21" height="25"> 5 Steps to Analysis using Tableau
 
 In Tableau, conducting an analysis typically involves several key steps:
 
