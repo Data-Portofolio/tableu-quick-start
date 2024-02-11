@@ -256,3 +256,15 @@ These geographic functions are useful for spatial analysis and creating geospati
 - Parameters dalam Tableau adalah nilai penampung global seperti angka, tanggal, atau string yang dapat menggantikan nilai konstan dalam suatu perhitungan, filter, atau garis referensi. Ini memungkinkan Anda untuk menyampaikan nilai ke visualisasi Anda untuk secara dinamis mengubah apa yang ditampilkan.
 
   > Misalnya, mengubah tampilan dari 15 stasiun teratas menjadi 50 stasiun teratas. Kunci dari sebuah parameter adalah kemampuannya untuk mengirimkan nilai ke lembar      kerja menggunakan Pengendali Parameter. Ini akan menjadi jelas dalam latihan berikutnya ketika kita membuat Parameter dan mengaitkannya dengan sebuah Bidang.Hitung  dan filter. Setelah dibuat, Anda akan melihat bahwa Parameters berada di bagian tersendiri dalam panel Data. Mari kita lihat beberapa contoh.
+
+<details><summary>Example: </summary>
+ <br>
+ 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
+</details>
+
+### Set
+
+- Set dalam Tableau adalah kumpulan data yang dibuat untuk mengelompokkan nilai-nilai tertentu dalam satu kelompok. Setiap nilai dalam set bisa menjadi bagian dari set ("IN") atau di luar set ("OUT"). Anda dapat membuat set berdasarkan kondisi tertentu, seperti nilai-nilai yang memenuhi kriteria tertentu atau nilai-nilai yang dipilih secara manual.
+
+  > Contoh penggunaan set dalam Tableau termasuk pembagian data menjadi kategori-kategori tertentu untuk analisis lebih lanjut, atau membandingkan kinerja anggota set     dengan anggota di luar set. Set dapat digunakan dalam perhitungan, filter, dan visualisasi untuk membantu dalam pemodelan data dan analisis.
