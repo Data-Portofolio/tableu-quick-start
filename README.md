@@ -21,49 +21,7 @@ In Tableau, conducting an analysis typically involves several key steps:
 
 By following these steps, you can effectively analyze data using Tableau and communicate meaningful insights to drive informed decision-making.
 
-## Parameter
-
-### Time Block
-
-```sql
-IF DATEPART('hour', [Start Time]) >= 0 AND DATEPART('hour', [Start Time]) < 6 
-    THEN 'Night'
-ELSEIF DATEPART('hour', [Start Time]) >= 6 AND DATEPART('hour', [Start Time]) < 12
-    THEN 'Morning'
-ELSEIF DATEPART('hour', [Start Time]) >= 12 AND DATEPART('hour', [Start Time]) < 18
-    THEN 'Afternoon'
-ELSE 
-    'Evening'
-END
-```
-
-###  weekend or weekdays
-
-```sql
-IF DATEPART('day', [Start Time])=1 
-    or DATEPART('day', [Start Time])= 7
-THEN 'Weekend'
-ELSE 'Weekday'
-END
-```
-
-### Season
-
-```sql
-IF  datepart('month', [Start Time])<3 THEN 'Winter'
-ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
-ELSE 'Summer'
-END
-```
-
-### Trip Duration (hour)
-
-```sql
-DATEDIFF('hour', [Start Time], [End Time])
-```
-
-
-## Function in Tableu
+## <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0748103a-61ef-4c28-a641-6821fbdbd014" width="31" height="33"> Function in Tableu
 
 ### Aggregate Functions:
 1. **SUM()**: Calculates the sum of a numerical field.
@@ -241,7 +199,7 @@ Certainly! Here are some geographic functions in Tableau along with examples of 
 These geographic functions are useful for spatial analysis and creating geospatial visualizations in Tableau. They allow you to perform operations such as calculating distances between locations, determining containment relationships, and creating buffer zones around points of interest.
 </details>
 
-## Group
+##  <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/c5e7c50c-7eff-4ffb-bd44-129ff892dfbe" width="31" height="33"> Group, Set, & Parameter
 ### Group
 - `Group` adalah penggabungan baris terkait dalam sebuah kolom.
   
@@ -256,10 +214,52 @@ These geographic functions are useful for spatial analysis and creating geospati
 
   > Misalnya, mengubah tampilan dari 15 stasiun teratas menjadi 50 stasiun teratas. Kunci dari sebuah parameter adalah kemampuannya untuk mengirimkan nilai ke lembar      kerja menggunakan Pengendali Parameter. Ini akan menjadi jelas dalam latihan berikutnya ketika kita membuat Parameter dan mengaitkannya dengan sebuah Bidang.Hitung  dan filter. Setelah dibuat, Anda akan melihat bahwa Parameters berada di bagian tersendiri dalam panel Data. Mari kita lihat beberapa contoh.
 
-<details><summary>Example: </summary>
- <br>
+<details><summary>View in tableu: </summary>
+
+ ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
+</details>
+
+<details><summary>Example Code:</summary>
+<br>
  
-![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
+#### Time Block
+
+```sql
+IF DATEPART('hour', [Start Time]) >= 0 AND DATEPART('hour', [Start Time]) < 6 
+    THEN 'Night'
+ELSEIF DATEPART('hour', [Start Time]) >= 6 AND DATEPART('hour', [Start Time]) < 12
+    THEN 'Morning'
+ELSEIF DATEPART('hour', [Start Time]) >= 12 AND DATEPART('hour', [Start Time]) < 18
+    THEN 'Afternoon'
+ELSE 
+    'Evening'
+END
+```
+
+####  weekend or weekdays
+
+```sql
+IF DATEPART('day', [Start Time])=1 
+    or DATEPART('day', [Start Time])= 7
+THEN 'Weekend'
+ELSE 'Weekday'
+END
+```
+
+#### Season
+
+```sql
+IF  datepart('month', [Start Time])<3 THEN 'Winter'
+ELSEIF  datepart('month', [Start Time])<5 THEN 'Spring'
+ELSE 'Summer'
+END
+```
+
+#### Trip Duration (hour)
+
+```sql
+DATEDIFF('hour', [Start Time], [End Time])
+```
 </details>
 
 ### Set
