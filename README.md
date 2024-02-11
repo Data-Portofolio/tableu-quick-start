@@ -200,6 +200,9 @@ These geographic functions are useful for spatial analysis and creating geospati
 </details>
 
 ##  <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/c5e7c50c-7eff-4ffb-bd44-129ff892dfbe" width="31" height="33"> Group, Set, & Parameter
+
+<p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/14b0320b-ea54-4b20-b449-f8c7f9445914"></p>
+
 ### Group
 - `Group` adalah penggabungan baris terkait dalam sebuah kolom.
   
