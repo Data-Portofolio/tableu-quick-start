@@ -1,5 +1,5 @@
  <h1 align="center">
-     <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="200" height="auto"/>
+     <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="150" height="auto"/>
     <br>
     tableu</h1>
 
