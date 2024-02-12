@@ -284,5 +284,10 @@ These geographic functions are useful for spatial analysis and creating geospati
    <details><summary>View in tableu 2</summary>
       <p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/320a0314-3722-49ee-a043-50fcc54d0a0d"></p>
    </details>
+    <details><summary>View in tableu 2</summary>
+      <p align="center"> <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e39397f3-648e-49f3-81b2-7cd5bf8a426b"></p>
+   </details>
+  
+
   
 
