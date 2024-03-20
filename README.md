@@ -2,8 +2,51 @@
      <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="150" height="auto"/>
     <br>
     tableu</h1>
+    ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0661dc87-1d3f-4656-9e20-9d03e9a80f40)
+
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5ff5eebb-84ad-4d17-8c01-acbca4c42a9d)
+
+<details><summary>string & Logical</summary>
+## String
+ 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0338b9cd-4e36-4860-8621-4f4d4491b018)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/150bcd77-6623-4c35-a749-d691dc38f435)
+
+## Logical
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/cbdd9864-4ce8-4724-94e3-8f39a6a0ac0d)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/2e329149-0330-4028-8ac9-3812cf73884d)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/14024ae4-d380-46cc-bc8b-6780cd35ccb4)
+
+ 
+</details>
+
+<details><summary>Measurement vs Dimension </summary>
+ 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/1abf3a15-525d-43b5-992f-dba8618b8791)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/23a45e64-057f-4fdb-9d23-12a282689544)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/a81d1395-4883-43e6-afda-ef398ff77c93)
+
+</details>
+
+<details><summary>Parameter </summary>
+
+ ### Parameter  1
+ ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/334ed3be-ee0b-4e0e-999b-0fd3da941fc9)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/c8ad27fa-cfb6-4616-95b4-f01825af3b4b)
+
+
+ ### Parameter  2
+ ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0f037cf3-9419-4f59-94d8-351d4e4d8d6d)
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/17d4628b-b53e-4eb0-b3e4-bf24a7a32175)
+
+ 
+</details>
+
+### Conditional
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/7067b04f-ba18-46c2-a78c-3ca2414c7620)
+
 
 ## <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ba90152c-0ebb-417d-b036-ab43bd6c4e54" width="31" height="33"> 5 Steps to Analysis using Tableau
 
@@ -223,6 +266,15 @@ These geographic functions are useful for spatial analysis and creating geospati
 
     ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ec3ff6d0-1730-49f5-a326-4379eacd1aac)
   </details>
+
+## Charts
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/281d0e61-88eb-45ce-86f3-b80eda77da32)
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/9972c8fe-fec9-44d5-85ef-05a24021d832)
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/4ce6f3cb-80fb-4d3c-91fc-d1ed75e7771d)
+
 
   <details><summary>Example Code:</summary>
    <br>
