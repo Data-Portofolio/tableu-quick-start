@@ -2,7 +2,8 @@
      <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="150" height="auto"/>
     <br>
     tableu</h1>
-    ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0661dc87-1d3f-4656-9e20-9d03e9a80f40)
+    
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0661dc87-1d3f-4656-9e20-9d03e9a80f40)
 
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5ff5eebb-84ad-4d17-8c01-acbca4c42a9d)
@@ -22,11 +23,67 @@
 </details>
 
 <details><summary>Measurement vs Dimension </summary>
- 
+ ## Fixed
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/1abf3a15-525d-43b5-992f-dba8618b8791)
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/23a45e64-057f-4fdb-9d23-12a282689544)
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/a81d1395-4883-43e6-afda-ef398ff77c93)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/64f42d1d-ad01-497c-a85d-2ed9b270f927)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e209146c-bf5b-4639-a738-a606340e6b03)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/bebf4ee5-5ac4-4a9f-aa4d-9b5eed375eb0)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/620899aa-8ab6-416b-bd2a-ef5af10c553d)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/4fa55cf6-c1d3-4b97-b53a-70516ae3e083)
 
+
+## Include & Exclude
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/84fc626f-a6e9-4dd2-b847-271c789bd26d)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ad721f4c-21a2-44ff-9e06-982eab823607)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/21c3c97a-c8a8-4493-9a3c-4b3163758efd)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/be759949-ac94-4a74-840f-912304eb650f)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/8a1d3a84-5df3-42ff-b65e-1fbeb0199481)
+
+
+</details>
+
+<details><summary> Date & Times</summary>
+ 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/d7a774db-f219-4343-8cff-f2e2aadfd3f8)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/32ffd1e2-92ea-4ec7-85f7-d6e00d07a0e7)
+
+ 
+</details>
+<details><summary>Table Calculations </summary>
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5cc28c23-47df-4f27-bc9a-6cbfa89e8568)
+</details>
+
+<details><summary>FIXED & LOD </summary>
+ 
+Di dalam Tableau, Fixed dan LOD (Level of Detail) adalah dua jenis pernyataan yang memungkinkan Anda untuk mengontrol tingkat detail atau granularitas dari perhitungan Anda dalam visualisasi data. Mari kita jelaskan keduanya:
+
+1. **Fixed Expression:**
+   - Ekspresi Fixed memungkinkan Anda untuk menghitung nilai yang berdasarkan dimensi tertentu, tanpa memperhitungkan dimensi lain dalam tampilan.
+   - Misalnya, Anda memiliki data penjualan yang mencakup berbagai kategori produk dan wilayah geografis. Anda ingin menghitung total penjualan untuk setiap kategori produk, tetapi Anda ingin mengabaikan perbedaan wilayah. Dalam hal ini, Anda dapat menggunakan ekspresi Fixed untuk menghitung total penjualan untuk setiap kategori produk tanpa memperdulikan wilayah.
+   - Rumus umum untuk Fixed Expression: `{FIXED [dimension]: aggregation expression}`
+   - Contoh: `{FIXED [Category]: SUM([Sales])}` akan menghitung total penjualan untuk setiap kategori produk, tanpa memperhatikan dimensi lain seperti wilayah.
+
+2. **LOD Expression (Level of Detail):**
+   - Ekspresi LOD memungkinkan Anda untuk secara eksplisit mengontrol tingkat detail perhitungan Anda dalam visualisasi data.
+   - Anda dapat menggunakan LOD Expression ketika Anda ingin menghitung sesuatu pada tingkat detail yang berbeda dari visualisasi Anda.
+   - LOD Expression memiliki tiga jenis utama:
+     - **INCLUDE**: Menghitung ekspresi LOD berdasarkan dimensi yang Anda tentukan, mempertahankan agregasi dari dimensi lain.
+     - **EXCLUDE**: Menghitung ekspresi LOD dengan mengabaikan dimensi yang Anda tentukan, mempertahankan agregasi dari dimensi lain.
+     - **FIXED**: Menghitung ekspresi LOD pada tingkat detail yang Anda tentukan, mengabaikan dimensi dalam visualisasi.
+   - Rumus umum untuk LOD Expression: `{INCLUDE/EXCLUDE/FIXED [dimension]: aggregation expression}`
+   - Contoh: `{INCLUDE [Category]: SUM([Sales])}` akan menghitung total penjualan untuk setiap kategori produk, tetapi akan mempertahankan agregasi dari dimensi lain seperti wilayah.
+
+Perbedaan utama antara Fixed dan LOD Expression terletak pada cara mereka memperlakukan dimensi dalam perhitungan. Fixed Expression memperlakukan dimensi yang ditentukan sebagai tingkat detail tetap tanpa memperhatikan dimensi lainnya, sementara LOD Expression memungkinkan Anda untuk secara fleksibel mengontrol tingkat detail perhitungan Anda berdasarkan dimensi tertentu atau keseluruhan tampilan.
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/f4625996-6f09-4323-a512-c39ff58d9c59)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/d65bdf0c-c889-47f4-ac4c-f8eb667af67d)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/d38b603a-d363-4181-8fc7-56417c7716aa)
+
+
+ 
 </details>
 
 <details><summary>Parameter </summary>
