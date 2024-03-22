@@ -49,12 +49,69 @@
  
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/d7a774db-f219-4343-8cff-f2e2aadfd3f8)
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/32ffd1e2-92ea-4ec7-85f7-d6e00d07a0e7)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/3f20eeab-4a42-4622-bca1-4f667295b450)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/31d05803-b1e7-4e08-9165-296fa45acb6e)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/9c333f37-f941-4bbe-b747-6213b0c33949)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/f8831ed9-0240-4721-af6d-cd400782ba4b)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0c956c0d-67b2-4523-a707-b8cf387d5d68)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/a51a5ee2-50aa-4fce-840d-02e60f904b5e)
 
- 
+ ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/c504ef3b-e8f0-4996-9de9-a2888c4ae8b3)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/929c07e2-4fdc-48bd-82bd-0131d44cc7a2)
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/cfc44523-420e-44a2-83c5-ad9b5e81cc7b)
+
 </details>
 <details><summary>Table Calculations </summary>
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5cc28c23-47df-4f27-bc9a-6cbfa89e8568)
+</details>
+
+<details><summary>Metrics</summary></details>
+
+<details><summary>1. Gross Profit</summary>
+## Gross Profit 
+
+ Untuk menghitung gross profit (keuntungan kotor) di Tableau menggunakan ekspresi LOD, Anda dapat menggunakan rumus yang mempertimbangkan penjualan dan biaya produk. Berikut adalah cara umum untuk menghitung gross profit:
+
+```plaintext
+Gross Profit = Total Penjualan - Total Biaya Produk
+```
+
+Dalam hal ini, Anda mungkin memiliki kolom atau bidang untuk total penjualan dan total biaya produk. Anda kemudian dapat menggunakan ekspresi LOD untuk menghitung gross profit dengan mempertahankan agregasi dari dimensi lainnya.
+
+Berikut adalah contoh ekspresi LOD untuk menghitung gross profit di Tableau:
+
+```plaintext
+{FIXED [Product]: SUM([Sales])} - {FIXED [Product]: SUM([Cost])}
+```
+
+Di sini, kita menggunakan ekspresi FIXED LOD untuk menjaga agregasi dari dimensi produk (Product) dan kemudian menghitung total penjualan (SUM([Sales])) dan total biaya (SUM([Cost])) untuk setiap produk. Kemudian kita mengurangkan total biaya produk dari total penjualan untuk mendapatkan gross profit.
+
+Pastikan bahwa Anda telah mengganti `[Product]`, `[Sales]`, dan `[Cost]` dengan nama dimensi dan metrik yang sesuai dalam data Anda. Dengan menggunakan ekspresi LOD ini dalam pengaturan perhitungan di Tableau, Anda dapat dengan mudah menampilkan gross profit di visualisasi Anda.
+
+## % of Gross Profit
+Untuk menghitung persentase dari keuntungan kotor (gross profit) terhadap total penjualan, Anda dapat menggunakan ekspresi LOD dalam Tableau. Persentase dari gross profit biasanya dihitung dengan rumus:
+
+\[
+\text{Percentage of Gross Profit} = \frac{\text{Gross Profit}}{\text{Total Penjualan}} \times 100\%
+\]
+
+Di bawah ini adalah contoh cara Anda bisa menghitungnya dalam Tableau menggunakan ekspresi LOD:
+
+```plaintext
+({FIXED [Product]: SUM([Sales])} - {FIXED [Product]: SUM([Cost])}) / {FIXED : SUM([Sales])} * 100
+```
+
+Dalam rumus di atas:
+- `{FIXED [Product]: SUM([Sales])} - {FIXED [Product]: SUM([Cost])}` menghitung gross profit seperti yang telah dijelaskan sebelumnya.
+- `{FIXED : SUM([Sales])}` menghitung total penjualan secara keseluruhan tanpa memperhatikan dimensi lain.
+
+Kemudian, kita membagi gross profit dengan total penjualan dan mengalikan dengan 100 untuk mendapatkan persentase dari gross profit terhadap total penjualan.
+
+Pastikan untuk mengganti `[Product]`, `[Sales]`, dan `[Cost]` dengan nama dimensi dan metrik yang sesuai dalam dataset Anda.
+
+Dengan menggunakan ekspresi LOD ini dalam perhitungan di Tableau, Anda dapat menampilkan persentase dari keuntungan kotor dalam visualisasi Anda.
+
 </details>
 
 <details><summary>FIXED & LOD </summary>
