@@ -3,6 +3,9 @@
     <br>
     tableu</h1>
     
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+    
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0661dc87-1d3f-4656-9e20-9d03e9a80f40)
 
 
@@ -66,9 +69,10 @@
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5cc28c23-47df-4f27-bc9a-6cbfa89e8568)
 </details>
 
-<details><summary>Metrics</summary></details>
-
+<details><summary>Metrics</summary>
+ 
 <details><summary>1. Gross Profit</summary>
+ 
 ## Gross Profit 
 
  Untuk menghitung gross profit (keuntungan kotor) di Tableau menggunakan ekspresi LOD, Anda dapat menggunakan rumus yang mempertimbangkan penjualan dan biaya produk. Berikut adalah cara umum untuk menghitung gross profit:
@@ -89,12 +93,14 @@ Di sini, kita menggunakan ekspresi FIXED LOD untuk menjaga agregasi dari dimensi
 
 Pastikan bahwa Anda telah mengganti `[Product]`, `[Sales]`, dan `[Cost]` dengan nama dimensi dan metrik yang sesuai dalam data Anda. Dengan menggunakan ekspresi LOD ini dalam pengaturan perhitungan di Tableau, Anda dapat dengan mudah menampilkan gross profit di visualisasi Anda.
 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/afc2d258-ddec-4148-95cc-fddbbdbbf0be)
+
+
 ## % of Gross Profit
 Untuk menghitung persentase dari keuntungan kotor (gross profit) terhadap total penjualan, Anda dapat menggunakan ekspresi LOD dalam Tableau. Persentase dari gross profit biasanya dihitung dengan rumus:
 
-\[
-\text{Percentage of Gross Profit} = \frac{\text{Gross Profit}}{\text{Total Penjualan}} \times 100\%
-\]
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ce726ed5-0985-431a-b54d-40a172371a2c)
+
 
 Di bawah ini adalah contoh cara Anda bisa menghitungnya dalam Tableau menggunakan ekspresi LOD:
 
@@ -112,7 +118,30 @@ Pastikan untuk mengganti `[Product]`, `[Sales]`, dan `[Cost]` dengan nama dimens
 
 Dengan menggunakan ekspresi LOD ini dalam perhitungan di Tableau, Anda dapat menampilkan persentase dari keuntungan kotor dalam visualisasi Anda.
 
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/7d8ed15d-f409-4e73-8734-ccbdcaf927d8)
+
+
 </details>
+
+<details><summary>2. CAGR</summary>
+ 
+CAGR (Compound Annual Growth Rate) adalah ukuran untuk mengukur laju pertumbuhan suatu investasi atau bisnis selama periode waktu tertentu, dengan mengasumsikan pertumbuhan yang merata dari tahun ke tahun dalam periode tersebut. CAGR sering digunakan untuk mengevaluasi kinerja investasi atau bisnis dalam jangka waktu yang panjang.
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/ca37d6b4-a1b3-49b7-8e4a-7d086059eac2)
+
+
+CAGR memberikan gambaran yang lebih akurat tentang pertumbuhan, karena mencerminkan pertumbuhan yang berkelanjutan dari waktu ke waktu, dan mengabaikan fluktuasi tahunan yang mungkin terjadi.
+
+Dalam konteks Tableau, Anda dapat menghitung CAGR dengan menggunakan perhitungan kustom atau ekspresi LOD, tergantung pada struktur data Anda dan tingkat kompleksitas yang Anda perlukan. Anda dapat menggunakan data historis untuk menghitung CAGR dari kinerja bisnis atau investasi dalam visualisasi Anda.
+ 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/08a6a00f-ab18-4dc3-bc76-78dfd9113b39)
+
+ 
+</details>
+
+</details>
+
 
 <details><summary>FIXED & LOD </summary>
  
