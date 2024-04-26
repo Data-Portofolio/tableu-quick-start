@@ -35,7 +35,8 @@
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/f4883259-55ff-491f-b6ef-e7ee389dd3ce)
 
- 
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/f97bca21-44cb-479a-b8c1-c3c91a95672d)
+
  ## Fixed
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/1abf3a15-525d-43b5-992f-dba8618b8791)
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/23a45e64-057f-4fdb-9d23-12a282689544)
