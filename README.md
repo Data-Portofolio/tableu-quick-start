@@ -1,4 +1,4 @@
- <h1 align="center">
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/45f49b49-17f7-4656-8407-565e9ee3d7e0) <h1 align="center">
      <img src="https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/e52a1f2f-16e0-4cd2-907b-a388b916a4af" alt="Image" width="150" height="auto"/>
     <br>
     tableu</h1>
@@ -10,6 +10,8 @@
 
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/5ff5eebb-84ad-4d17-8c01-acbca4c42a9d)
+
+
 
 <details><summary>string & Logical</summary>
 ## String
@@ -30,6 +32,8 @@
  ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0cdbd8ce-5c2d-4b31-a732-52c806801728)
 
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/7232c987-8c66-4e7d-bf39-f53570d33a9d)
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/f4883259-55ff-491f-b6ef-e7ee389dd3ce)
 
  
  ## Fixed
