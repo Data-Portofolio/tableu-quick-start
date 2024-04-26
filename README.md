@@ -26,6 +26,12 @@
 </details>
 
 <details><summary>Measurement vs Dimension </summary>
+ 
+ ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/0cdbd8ce-5c2d-4b31-a732-52c806801728)
+
+![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/7232c987-8c66-4e7d-bf39-f53570d33a9d)
+
+ 
  ## Fixed
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/1abf3a15-525d-43b5-992f-dba8618b8791)
 ![image](https://github.com/Data-Portofolio/tableu-quick-start/assets/133883292/23a45e64-057f-4fdb-9d23-12a282689544)
